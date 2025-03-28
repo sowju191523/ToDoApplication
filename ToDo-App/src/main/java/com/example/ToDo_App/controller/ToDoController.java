@@ -86,7 +86,7 @@ public class ToDoController {
 		}
 		redirectAttributes.addFlashAttribute("message", "Delete Failure");
 		
-		return "redirect:/viewToDoList";
+		return "redirect:/viewToDoList1";
 		
 	}
 	
